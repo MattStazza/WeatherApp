@@ -1,0 +1,157 @@
+* {
+  font-family: "Rimouski";
+}
+
+body {
+  background-color: #293251;
+  padding: 10px;
+  width: 380px;
+  height: 550px;
+  max-height: 550px;
+  margin: 0 auto;
+  border-radius: 15px 15px 15px 15px;
+}
+
+header {
+  align-content: center;
+  height: 200px;
+  background-image: url("../img/aurora.gif");
+  border-radius: 15px 15px 0 0;
+}
+
+.toDoListButton {
+  margin: left;
+}
+
+.weatherButton {
+  margin: right;
+}
+
+.container {
+  align-content: center;
+  background-color: #fff;
+
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 15px 15px 0 0;
+  padding-bottom: 50px;
+}
+
+.app-title {
+  width: 380px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-title p {
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 40px;
+  color: #293251;
+}
+
+.notification {
+  background-color: #f8d7da;
+  display: none;
+}
+
+.notification p {
+  color: #721c24;
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.weather-container {
+  margin: auto;
+  align-content: center;
+  height: 400px;
+  background-color: #f4f9ff;
+  border-radius: 0 0 15px 15px;
+}
+
+.weather-icon {
+  width: 380px;
+  height: 128px;
+}
+
+.weather-icon img {
+  display: block;
+  margin: auto;
+}
+
+.temperature-value {
+  width: 380px;
+  height: 60px;
+}
+
+.temperature-value p {
+  position: relative;
+  padding: 0;
+
+  color: #293251;
+  font-size: 4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.temperature-value p:hover {
+}
+
+.temperature-value span {
+  color: #293251;
+  font-size: 0.5em;
+}
+
+.temperature-description {
+}
+
+.temperature-description p {
+  padding: 8px;
+  margin: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.location {
+}
+
+.location p {
+  margin: 0;
+  padding: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.button_div {
+  padding-right: 10px;
+  float: right;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_div img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.button_div .img_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
